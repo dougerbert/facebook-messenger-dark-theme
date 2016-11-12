@@ -1,6 +1,33 @@
 /* Main UI */
-body.darkUI ._4sp8, body.darkUI ._4_j5, body.darkUI ._1ht1, body.darkUI ._5l37, body.darkUI ._4eby, body.darkUI ._2y8_, body.darkUI ._5t4c, body.darkUI ._nd_ ._3058._15gf, body.darkUI ._4rv3 {
-    background-color: #2C2C2C !important;
+
+/* Dark Chat Spotfy*/
+body.darkUI ._4_j4 {
+   background-color: #181818 !important;
+    -webkit-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+body.darkUI ._4_j5 {
+   background-color: #282828 !important;
+    -webkit-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+body.darkUI ._15gf {
+   background-color: #181818 !important;
+    -webkit-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+body.darkUI  ._1t_s{
+   background-color: #181818 !important;
+    -webkit-transition: background-color 0.1s ease-in;
+    transition: background-color 0.1s ease-in;
+}
+
+
+body.darkUI ._4sp8, body.darkUI ._1ht1, body.darkUI ._5l37, body.darkUI ._4eby, body.darkUI ._2y8_, body.darkUI ._5t4c , body.darkUI ._4rv3 {
+    background-color: #282828 !important;
     -webkit-transition: background-color 0.1s ease-in;
     transition: background-color 0.1s ease-in;
 }
@@ -12,19 +39,23 @@ body.darkUI ._1ht1._1ht2, body.darkUI ._5742, body.darkUI ._36ic {
 }
 
 body.darkUI ._hh7:active, body.darkUI ._hh7, body.darkUI ._haj, body.darkUI ._5i_d {
-    background-color: #A8A8A8;
+    background-color: #282828;
     -webkit-transition: background-color 0.1s ease-in;
     transition: background-color 0.1s ease-in;
 }
 
 body.darkUI ._haj, body.darkUI ._54aq {
-    color: #2C2C2C !important;
+    color: #282828 !important;
     -webkit-transition: color 0.1s ease-in;
     transition: color 0.1s ease-in;
 }
 
 body.darkUI ._nd_ ._hh7:active, body.darkUI ._nd_._-5k ._hh7, body.darkUI ._nd_ ._3058 {
-    background-color: #0077e5;
+    background-color: #282828;
+}
+
+body.darkUI ._nd_ ._3058._ui9._hh7._s1-._52mr._3oh- {
+    background-color: #282828 !important; 
 }
 
 body.darkUI ._hh7:active {
@@ -46,13 +77,13 @@ body.darkUI ._ih3, body.darkUI ._364g, body.darkUI ._3tl0, body.darkUI ._497p, b
 }
 
 body.darkUI ._hh7 ._3oh-, body.darkUI ._5rw4 {
-    color: #050505 !important;
+    color: #999999 !important;
     -webkit-transition: color 0.1s ease-in;
     transition: color 0.1s ease-in;
 }
 
 body.darkUI ._nd_ ._hh7 ._3oh- {
-    color: #FFFFFF !important;
+    color: #999999 !important;
     -webkit-transition: color 0.1s ease-in;
     transition: color 0.1s ease-in;
 }
@@ -83,6 +114,22 @@ body.darkUI ._3058._52mr {
   max-width: 60%;
 }
 
+body.darkUI ._5i_d, .__6k, ._4ik4, ._4ik5{
+    color: #A8A8A8 !important;
+}
+
+
+/* Small Emoticon */
+body.darkUI ._5qi2 {
+  background-repeat:no-repeat;
+  background-size: 20px;
+  display:inline-block;
+  height: 20px;
+  margin: 0px 10px;
+  vertical-align:top;
+  width: 20px;
+}
+
 /* Fixes weird flash in messages bar */
 body.darkUI .uiScrollableAreaTrack {
   opacity: 1 !important;
@@ -91,6 +138,11 @@ body.darkUI .uiScrollableAreaTrack {
 /* Fixes link focus outline */
 body.darkUI a:focus {
   outline: 0 !important;
+}
+
+/* Visited Link */
+body.darkUI ._hh7 a {
+    color: #999999 !important;
 }
 
 .toggleUI {
